@@ -76,15 +76,17 @@ To start using the framework:
 
 1. Fork the repository.
 2. Clone, i.e., download your copy of the repository to your local machine using:
-    \` git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git \`
-3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
-4. Make any desired changes or additions to the project.
+\`\`\`
+     git clone https://github.com/Bayzid2/Saucedemo_Page_Object_Model_by_Selenium_Java.git
+\`\`\`
+4. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
+5. Make any desired changes or additions to the project.
 
 ## Maven Dependencies
 
-\`\`\`xml
+\`\`\`
 
-<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
