@@ -1,4 +1,4 @@
-echo "# Saucedemo Web Automation
+# Saucedemo Web Automation
 
 ## Table of Contents
 
@@ -76,33 +76,36 @@ To start using the framework:
 
 1. Fork the repository.
 2. Clone, i.e., download your copy of the repository to your local machine using:
-    \`git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git\`
+    \` git clone https://github.com/ebrahimhossaincse/Selenium-Tutorials-Java.git \`
 3. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, or Spring Tools).
 4. Make any desired changes or additions to the project.
 
 ## Maven Dependencies
 
 \`\`\`xml
+
 <dependencies>
-  <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.13.0</version>
-  </dependency>
-  <dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.5.3</version>
-  </dependency>
-  <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.8.0</version>
-    <scope>test</scope>
-  </dependency>
-</dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.13.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.5.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
 \`\`\`
-
-
 
 
